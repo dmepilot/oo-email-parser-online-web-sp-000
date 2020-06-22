@@ -4,15 +4,15 @@
 # or whitespace (' ').
 class EmailAddressParser
   
-  attr_accessor :list
+  attr_accessor :string_of_emails
   
   def initialize(list)
-    @list = [list]
+    @string_of_emails = string_of_emails
   end
   
   def parse
     new_array = []
-    new_array=@list.split(/\s|\,/)
+    new_array=@string_of_emails.split(/\s|\,/)
   end
 
 
