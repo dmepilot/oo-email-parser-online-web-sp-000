@@ -12,7 +12,7 @@ class EmailAddressParser
   
   def parse
     new_array = []
-    new_array=@string_of_emails.split(/\s|\,|\s,/)
+    new_array=@string_of_emails.split(/\s|\,|\,s/)
   end
 
 
