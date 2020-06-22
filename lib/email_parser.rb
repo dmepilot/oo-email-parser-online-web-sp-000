@@ -7,11 +7,11 @@ class EmailAddressParser
   attr_accessor :list
   
   def initialize
-    @list = self.new
+    @list = []
   end
   
   def parse
-    new_array = []
+    new
     new_array=@list.split(/\s|\,/)
   end
 
